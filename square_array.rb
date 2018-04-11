@@ -1,7 +1,6 @@
 def square_array(array)
-  
-  array.each do | num | 
-   num**2
+  square = []
+  array.each do | num | square << num**2
   
   
 end
